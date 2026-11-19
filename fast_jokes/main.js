@@ -1,4 +1,4 @@
-const API = "http://localhost:5000/api/v1/jokes";
+const API = "https://fast-jokes-44pz.onrender.com/api/v1/jokes";
 
 async function getJokes(){
     const language = document.querySelector("#selLang").value;
